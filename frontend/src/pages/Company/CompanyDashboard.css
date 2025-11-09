@@ -1,0 +1,211 @@
+.company-dashboard {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.company-header {
+  background: white;
+  padding: 2rem;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.company-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 2rem;
+}
+
+.company-header p {
+  margin: 0.5rem 0 0 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.company-status {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.company-layout {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+.company-sidebar {
+  width: 250px;
+  background: white;
+  border-right: 1px solid #e9ecef;
+  padding: 1rem 0;
+}
+
+.company-content {
+  flex: 1;
+  padding: 2rem;
+  background: #f8f9fa;
+}
+
+.tab-content h2 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  border-left: 4px solid #17a2b8;
+}
+
+.stat-card h3 {
+  margin: 0 0 1rem 0;
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #17a2b8;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.recent-activity {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.recent-activity h3 {
+  margin: 0 0 1.5rem 0;
+  color: #333;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.activity-item {
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 4px solid #17a2b8;
+}
+
+.activity-item.success {
+  border-left-color: #28a745;
+  background: #f8fff9;
+}
+
+.activity-item.info {
+  border-left-color: #17a2b8;
+  background: #f8f9ff;
+}
+
+.activity-item.warning {
+  border-left-color: #ffc107;
+  background: #fffef0;
+}
+
+.activity-item strong {
+  color: #333;
+}
+
+/* Applicant Cards */
+.applicant-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.applicant-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-left: 4px solid #17a2b8;
+}
+
+.applicant-card.high-match {
+  border-left-color: #28a745;
+}
+
+.applicant-card.medium-match {
+  border-left-color: #ffc107;
+}
+
+.applicant-card.low-match {
+  border-left-color: #dc3545;
+}
+
+.applicant-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.applicant-card p {
+  margin: 0.25rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.match-score {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.match-high {
+  background: #d4edda;
+  color: #155724;
+}
+
+.match-medium {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.match-low {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.skill-tag {
+  background: #e9ecef;
+  color: #495057;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}

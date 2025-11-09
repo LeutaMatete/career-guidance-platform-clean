@@ -1,0 +1,17 @@
+.form-notice {
+  background: #e3f2fd;
+  border: 1px solid #2196f3;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.form-notice p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.form-notice strong {
+  color: #1976d2;
+}

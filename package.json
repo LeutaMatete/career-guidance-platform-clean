@@ -1,0 +1,13 @@
+{
+  "name": "career-guidance",
+  "version": "1.0.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start:frontend": "npm start --prefix frontend",
+    "start:backend": "npm run dev --prefix backend",
+    "start": "npm run start:frontend"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/career-guidance-platform-clean/static/css/main.38c7f7cf.css",
-    "main.js": "/career-guidance-platform-clean/static/js/main.77a379bd.js",
-    "static/js/48.8df44bc1.chunk.js": "/career-guidance-platform-clean/static/js/48.8df44bc1.chunk.js",
-    "index.html": "/career-guidance-platform-clean/index.html"
+    "main.css": "/static/css/main.38c7f7cf.css",
+    "main.js": "/static/js/main.81a3c27d.js",
+    "static/js/48.84233a67.chunk.js": "/static/js/48.84233a67.chunk.js",
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.38c7f7cf.css",
-    "static/js/main.77a379bd.js"
+    "static/js/main.81a3c27d.js"
   ]
 }
